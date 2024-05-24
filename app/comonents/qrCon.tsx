@@ -1,8 +1,8 @@
-// qrcode import 
+// qrcode import
 import QRCode from "react-qr-code";
 const QrCon = () => {
   return (
-    <div className="flex justify-center items-center p-4 bg-slate-800">
+    <div className="flex justify-center items-center p-4 bg-slate-800 rounded-lg">
       <QRCode value="https://www.google.com" />
     </div>
   );

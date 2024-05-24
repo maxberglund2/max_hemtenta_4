@@ -48,13 +48,13 @@ const TimeCon = () => {
   const { day, currentDate, month, year, weekNumber } = getCurrentDate();
 
   return (
-    <div className="bg-blue-500 text-white p-4">
-      <h1 className="text-2xl font-bold">Current Date</h1>
-      <p>Day: {day}</p>
-      <p>Date: {currentDate}</p>
-      <p>Month: {month}</p>
-      <p>Year: {year}</p>
-      <p>Week Number: {weekNumber}</p>
+    <div className="bg-blue-500 text-white p-4 mb-4 rounded-lg">
+      <h1 className="text-2xl font-bold mb-2">Current Date</h1>
+      <p><span className="font-semibold">Day:</span> {day}</p>
+      <p><span className="font-semibold">Date:</span> {currentDate}</p>
+      <p><span className="font-semibold">Month:</span> {month}</p>
+      <p><span className="font-semibold">Year:</span> {year}</p>
+      <p><span className="font-semibold">Week Number:</span> {weekNumber}</p>
     </div>
   );
 };
